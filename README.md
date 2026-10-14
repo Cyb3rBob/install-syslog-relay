@@ -2,6 +2,8 @@
 
 Operator guide for `install-syslog-relay-multi.sh`. This README documents the installer after removal of its firewall-management feature. The installer does not change firewall configuration; manage UDP/514 access separately.
 
+Video on how to use this installer and verify:  https://youtu.be/cZhyzyxrXVg
+
 ## What it does
 
 The interactive Bash installer configures an Ubuntu host to receive syslog over UDP port 514 and forward each received message to **every** selected destination over UDP port 514. This is fan-out (duplicate forwarding), not load balancing or failover.
