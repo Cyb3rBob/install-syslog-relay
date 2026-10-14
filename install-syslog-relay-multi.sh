@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Interactive rsyslog UDP/514 fan-out installer for Ubuntu.
 # Written by Cyb3rBob (and Codex)
+# Video walk-through for this script:  https://youtu.be/cZhyzyxrXVg
 # To run this script
 # chmod +x install-syslog-relay.sh
 # sudo ./install-syslog-reloay.sh
